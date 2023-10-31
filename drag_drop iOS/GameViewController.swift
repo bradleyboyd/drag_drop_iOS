@@ -11,6 +11,7 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,7 +25,7 @@ class GameViewController: UIViewController {
         skView.showsFPS = true
         skView.showsNodeCount = true
     }
-
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown
