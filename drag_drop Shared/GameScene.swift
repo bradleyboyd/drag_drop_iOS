@@ -9,6 +9,7 @@ var dx_square = 50
 
 var x_loc = 0.0
 var y_loc = 0.0
+
 class GameScene: SKScene {
     
     private var currentNode: SKNode?
